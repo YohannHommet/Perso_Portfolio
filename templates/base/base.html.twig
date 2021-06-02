@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <meta name="keywords" content="développeur, développeur web, développeur backend, développeur PHP / Symfony, Yohann, Yohann Hommet, Nantes, Cholet, Les herbiers"/>
+        <meta name="description" content="Site personnel de Yohann Hommet, développeur back-end PHP / Symfony"/>
+
+        <meta name="robots" content="index,follow"/>
+        <meta name="language" content="French">
+        <meta name="author" content="Yohann Hommet" />
+        <meta name="copyright" content="Copyright Yohann Hommet" />
+
+        <title>{% block title %}H.Y. | Portfolio{% endblock %}</title>
+
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+
+    </head>
+    <body>
+
+        {% include '_partials/_navbar.html.twig' %}
+        
+
+        <div class="container-fluid p-0 m-0 g-0">
+            <main role="main">
+                {% include '_partials/_flash_messages.html.twig' %}
+                {% block body %}{% endblock %}
+            </main>
+        </div>
+
+
+
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+        
+    </body>
+</html>

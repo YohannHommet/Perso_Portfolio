@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+// VARIABLES
+
+$primary: #835acf;
+$secondary: #adb5bd;
+$success: #35d283;
+$info: #0dcaf0;
+$warning: #ffc107;
+$danger: #ff65b1;
+$light: #f8f9fa;
+$dark: #0F1343;
+$dropdown-link-active-bg: #f8f9faee;
+
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: white !important;
+}
