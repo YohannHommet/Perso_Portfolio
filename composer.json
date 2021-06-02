@@ -2,7 +2,7 @@
     "type": "project",
     "name": "yohann/portfolio",
     "description": "Portfolio personnel construit avec Symfony",
-    "license": "MIT Licence",
+    "license": "MIT",
     "authors": [
         {
             "name": "YohannHommet",
